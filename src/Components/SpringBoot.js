@@ -10,7 +10,7 @@ class SpringBoot extends Component{
 
         this.state = {
             urlUsers: "https://glacial-headland-06013.herokuapp.com/getUserData",
-            urlAddress: "https://glacial-headland-06013.herokuapp.com/getCompanyData",
+            urlAddress: "https://glacial-headland-06013.herokuapp.com/getAddressData",
             data: [],
             isUserLoading: false,
             isAddressLoading: false,
