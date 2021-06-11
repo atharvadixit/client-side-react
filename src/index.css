@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bu-style{
+  margin-left: 100px;
+}
+
 .disp{
   padding-left: 10%;
   padding-top: 2%;

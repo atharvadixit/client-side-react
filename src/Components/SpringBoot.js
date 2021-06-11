@@ -91,16 +91,11 @@ class SpringBoot extends Component{
                 <h2>Click the below button to make API call to the Node-Express Server</h2>
                 <br/>
                 <div className="row">
-                    <div className="col-lg-6 col-lg-offset-8">
+                    <center>
                         <button className="btn btn-dark" onClick={this.fetchUsersData}>
                             Get Users Data
                         </button>
-                    </div>
-                    <div className="col-lg-6 col-lg-offset-4">
-                        <button className="btn btn-dark" onClick={this.fetchAddressData}>
-                            Get Company Data
-                        </button>
-                    </div>
+                    </center>
                 </div>
                 <br></br>
                 <div className="row">
