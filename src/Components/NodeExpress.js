@@ -84,6 +84,10 @@ class NodeExpress extends Component{
       }.bind(this), 200)
     }
 
+    fetchAddressData = () =>{
+        fetch(this.state.urlUsers, {async: false}).then(res => res.json())
+    }
+
     render(){
         return (
             <div className="container">
@@ -99,6 +103,11 @@ class NodeExpress extends Component{
                     <div className="col-lg-6 col-lg-offset-4">
                         <button className="btn btn-dark" onClick={this.fetchCompanyData}>
                             Get Company Data
+                        </button>
+                    </div>
+                    <div className="col-lg-6 col-lg-offset-4">
+                        <button className="btn btn-dark" onClick={this.fetchAddressData}>
+                            Get Address Data
                         </button>
                     </div>
                 </div>
